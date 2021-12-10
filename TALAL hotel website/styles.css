@@ -1,0 +1,271 @@
+
+
+h1,h2,h3,h4,h5,h6,
+{font-family: 'Ubuntu', sans-serif;
+ font-weight:bold;
+ line-height:1.5;}
+
+ p
+ {color: #8f8f8f;
+ font-weight: bold;}
+
+
+/**********************section login****************/
+.login{
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/login-background.png);
+
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box{
+  width: 380px;
+  height: 500px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 28px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: 5s;
+}
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img{
+ width: 40px;
+ background: linear-gradient(to right, #ff105f, #ffad06);
+ border-radius: 50%;
+ margin:0 12px;
+ box-shadow: 0 0 20px 0 #7f7f7f3d;
+ cursor: pointer;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+
+}
+.submit-btn{
+  width: 100%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+
+}
+
+.check-box{
+  margin: 40px 10px 40px 0;
+}
+span.login-span{color: #777;
+font-size: 13px;
+padding-right: 10px;
+bottom: 68px;
+position: absolute;
+}
+
+#login{
+  left: 50px;
+}
+#Register{
+  left: 450px;
+}
+
+
+/*****************************section title*********************/
+
+#title
+{ background-color: #8E806A;}
+
+
+.main-heading
+{
+ font-size: 3.5rem;
+ color: white;}
+
+div.container-fluid
+{padding: 3% 15% 7%;
+ }
+
+.navbar
+{padding-bottom: 4.5rem;}
+
+.navbar-brand
+{font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+ font-weight: bold;}
+
+.nav-item
+{padding: 0 18px;}
+
+.nav-link
+{font-family: "Ubuntu";
+ font-size: 1.2rem;
+ }
+
+.download-buttons
+{margin: 5% 3% 5% 0;}
+
+.Hotel-img
+{width:40%;
+ transform: rotate(25deg);
+position: absolute;
+}
+/*************************section features*********************/
+#features
+{text-align: center;
+ background-color: #fff;
+ padding:7% 15%;
+ position: relative;
+ }
+
+.feature-img
+{color: #ef8172;}
+
+h2.menu{
+  color:black;
+  margin-bottom: 60px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+ /**********************section testimonials******************/
+
+h2
+{
+ font-size: 3rem;
+ }
+#testimonials
+{background-color:#C3B091;
+ text-align: center;
+ color: #fff;}
+
+.testimonial-img
+{ width: 10%;
+ border-radius: 50%;
+ margin: 20px;
+ }
+.carousel-item
+{padding: 7% 15%;}
+
+
+/****************************section pricing***************************/
+#pricing
+{padding: 100px;
+ text-align: center;}
+
+ .pricing-column
+ {padding: 3% 2%;}
+
+/*****************************cta**********************************/
+
+#cta
+{background-color: #99A799;
+  text-align: center;
+  padding:7% 15%;
+ color: #fff;
+ font-size: 4.5rem;}
+
+.cta-buttons
+{margin: 1%;
+
+
+}
+.cta-buttons:hover
+{background-color: #D3E4CD;}
+
+.cta-h3
+{ font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;}
+
+
+  /************payment ****************/
+  #order{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #B2AB8C;
+    color: #fff;
+  }
+
+  .submit-order:hover{
+    color: #CD1818;
+  }
+/*****************************footer******************************/
+
+#footer
+{padding: 4% 0 1%;
+ text-align: center;
+ background-color: #C3B091;
+ }
+
+.contact-logo
+{margin: 1%;
+ color: #CD1818;
+ }
+.contact-logo:hover{
+  color: black;
+}
+
+
+ @media (max-width: 991.98px){
+   #title
+   {text-align: center;}
+
+       .Hotel-img
+       {position: static;
+        transform: rotate(0);
+        }
+
+ }
